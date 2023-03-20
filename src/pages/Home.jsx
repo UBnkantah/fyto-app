@@ -1,10 +1,13 @@
 import React from 'react'
-import Hero from '../components/Hero/Hero'
+
+function darkmode() {
+  document.body.classList.toggle("darkmode")
+}
 
 const Home = () => {
   return (
     <div>
-      <Hero />
+      <div id="dark-mode-toggle" onClick={darkmode}></div>
     </div>
   )
 }

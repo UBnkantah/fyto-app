@@ -84,40 +84,48 @@ export const teamembers = [
         id: 1,
         name: "Mike Jones",
         title: "Developer",
+        img: "https://res.cloudinary.com/dr6a80sph/image/upload/v1679322830/mike-jones_wz5nda.png"
     },
     {
         id: 2,
         name: "Max Anderson",
-        title: "Founder and CEO"
+        title: "Founder and CEO",
+        img: "https://res.cloudinary.com/dr6a80sph/image/upload/v1679322830/max-anderson_hemkxz.png"
     },
     {
         id: 3,
         name: "Anita Gold",
-        title: "Senior Consultant"
+        title: "Senior Consultant",
+        img: "https://res.cloudinary.com/dr6a80sph/image/upload/v1679322829/anita-gold_cim3um.png"
     },
     {
         id: 4,
         name: "Peter Green",
-        title: "Developer"
+        title: "Developer",
+        img: "https://res.cloudinary.com/dr6a80sph/image/upload/v1679322829/peter-green_bnr9xf.png"
     },
     {
         id: 5,
         name: "Kate Watson",
-        title: "Marketing manager"
+        title: "Marketing manager",
+        img: "https://res.cloudinary.com/dr6a80sph/image/upload/v1679322830/kate-watson_cg4xal.png"
     },
     {
         id: 6,
         name: "Jacob Adams",
-        title: "Senior Developer"
+        title: "Senior Developer",
+        img: "https://res.cloudinary.com/dr6a80sph/image/upload/v1679322829/jacob-adams_lg38yw.png"
     },
     {
         id: 7,
         name: "Rita Griffin",
-        title: "Accountant"
+        title: "Accountant",
+        img: "https://res.cloudinary.com/dr6a80sph/image/upload/v1679322829/rita-griffin_cujcj3.png"
     },
     {
         id: 8,
         name: "Paul Jin",
-        title: "Creative manager"
+        title: "Creative manager",
+        img: "https://res.cloudinary.com/dr6a80sph/image/upload/v1679322829/paul-jin_nmtff7.png"
     }
 ]
