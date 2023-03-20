@@ -17,19 +17,24 @@ const BlogCom = () => {
                     <p className="blog-header">
                         How Crypto Enables Economic Freedom
                     </p>
-                    <p><span></span> Crypto</p>
+                    <div className="blg-title">
+                        <p>Crypto</p>
+                    </div>
+                    
                     <p>Donec vel pellentesque nisl, molestie tempus ligula. Cras massa turpis, pretium nec placerat ornare, sodales a..</p>
-                    <div>
-                        <FiUser />
-                        <p>By Olga</p>
-                    </div>
-                    <div>
-                        <FaRegCalendarAlt />
-                        <p>March 26, 2022</p>
-                    </div>
-                    <div>
-                        <BiMessage />
-                        <p>No Comment</p>
+                    <div className="blog-id">
+                        <div className="user-blog blog-id-item">
+                            <FiUser />
+                            <p>By Olga</p>
+                        </div>
+                        <div className="cal-blog blog-id-item">
+                            <FaRegCalendarAlt />
+                            <p>March 26, 2022</p>
+                        </div>
+                        <div className="mess-blog blog-id-item">
+                            <BiMessage />
+                            <p>No Comment</p>
+                        </div>
                     </div>
                 </div>
             </div>

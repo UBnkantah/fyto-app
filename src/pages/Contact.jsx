@@ -1,8 +1,10 @@
-import React from 'react'
+import ContactCom from "../components/ContactCom/ContactCom"
 
 const Contact = () => {
   return (
-    <div>Contact</div>
+    <div>
+      <ContactCom />
+    </div>
   )
 }
 

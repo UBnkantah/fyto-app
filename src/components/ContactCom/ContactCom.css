@@ -1,0 +1,18 @@
+.contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 2em;
+}
+.contact-heading{
+    max-width: 500px;
+}
+
+.member-details .flex-socials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5em;
+}
