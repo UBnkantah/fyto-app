@@ -6,6 +6,8 @@ import Crypto from "./pages/Crypto"
 import Error from "./pages/Error"
 import Contact from "./pages/Contact"
 import Blog from "./pages/Blog"
+import Team from "./pages/Team"
+import About from "./pages/About"
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 
@@ -22,7 +24,9 @@ function App() {
             <Route path='/nft' element={<NFT />} />
             <Route path='/crypto' element={<Crypto />} />
             <Route path='/blog' element={<Blog />} />
+            <Route path='/team' element={<Team />} />
             <Route path='/contact' element={<Contact />} />
+            <Route path='/about' element={<About />} />
             <Route path='*' element={<Error />} />
           </Route>
         </Routes>

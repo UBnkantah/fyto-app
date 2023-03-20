@@ -1,8 +1,10 @@
-import React from 'react'
+import BlogCom from "../components/BlogCom/BlogCom"
 
 const Blog = () => {
   return (
-    <div>Blog</div>
+    <div>
+      <BlogCom />
+    </div>
   )
 }
 
