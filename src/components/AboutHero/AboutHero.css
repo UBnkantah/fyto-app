@@ -1,0 +1,45 @@
+.about-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.about-hero-div{
+    max-width: 31.25em;
+    text-align: center;
+}
+.about-hero-img{
+    width: 100%;
+}
+.about-hero-img > img{
+    width: 100%;
+}
+.about-mission{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-wrap: wrap;
+    gap: 1.5em;
+    padding: 2em 0em;
+}
+.about-mission .abt-mission-dts{
+    max-width: 380px;
+}
+.user-about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+.flex-user{
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px var(--text-color);
+    padding: 15px;
+}

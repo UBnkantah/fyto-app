@@ -9,10 +9,40 @@
 .contact-heading{
     max-width: 500px;
 }
-
+.contacts-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.8em;
+}
 .member-details .flex-socials{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 1.5em;
+    width: 100%;
+}
+.flex-socials .social-icons{
+    width: 35px;
+    height: 35px;
+    background-color: var(--text-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.social-icons .member-icon{
+    color: var(--primary-color);
+}
+
+.flex-contact{
+    max-width: 300px;
+}
+.flex-contact img{
+    width: 100%;
+}
+.member-details{
+    width: 100%;
 }

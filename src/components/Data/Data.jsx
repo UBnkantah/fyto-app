@@ -90,48 +90,105 @@ export const teamembers = [
         id: 1,
         name: "Mike Jones",
         title: "Developer",
-        img: "https://res.cloudinary.com/dr6a80sph/image/upload/v1679322830/mike-jones_wz5nda.png"
+        img: require("../images/mike-jones.png")
     },
     {
         id: 2,
         name: "Max Anderson",
         title: "Founder and CEO",
-        img: "https://res.cloudinary.com/dr6a80sph/image/upload/v1679322830/max-anderson_hemkxz.png"
+        img: require("../images/max-anderson.png")
     },
     {
         id: 3,
         name: "Anita Gold",
         title: "Senior Consultant",
-        img: "https://res.cloudinary.com/dr6a80sph/image/upload/v1679322829/anita-gold_cim3um.png"
+        img: require("../images/anita-gold.png")
     },
     {
         id: 4,
         name: "Peter Green",
         title: "Developer",
-        img: "https://res.cloudinary.com/dr6a80sph/image/upload/v1679322829/peter-green_bnr9xf.png"
+        img: require("../images/peter-green.png")
     },
     {
         id: 5,
         name: "Kate Watson",
         title: "Marketing manager",
-        img: "https://res.cloudinary.com/dr6a80sph/image/upload/v1679322830/kate-watson_cg4xal.png"
+        img: require("../images/kate-watson.png")
     },
     {
         id: 6,
         name: "Jacob Adams",
         title: "Senior Developer",
-        img: "https://res.cloudinary.com/dr6a80sph/image/upload/v1679322829/jacob-adams_lg38yw.png"
+        img: require("../images/jacob-adams.png")
     },
     {
         id: 7,
         name: "Rita Griffin",
         title: "Accountant",
-        img: "https://res.cloudinary.com/dr6a80sph/image/upload/v1679322829/rita-griffin_cujcj3.png"
+        img: require("../images/rita-griffin.png")
     },
     {
         id: 8,
         name: "Paul Jin",
         title: "Creative manager",
-        img: "https://res.cloudinary.com/dr6a80sph/image/upload/v1679322829/paul-jin_nmtff7.png"
+        img: require("../images/paul-jin.png")
+    }
+]
+
+export const userEx = [
+    {
+        id: 1,
+        title: "Transparency",
+        img: require("../images/user-transparency.png")
+    },
+    {
+        id: 2,
+        title: "Experienced team",
+        img: require("../images/user-experience.png")
+    },
+    {
+        id: 3,
+        title: "Security garantie",
+        img: require("../images/user-security.png")
+    }
+]
+export const Abteam = [
+    {
+        id: 1,
+        name: "Max Kent",
+        title: "Senior Developer",
+        img: require("../images/max-anderson.png")
+    },
+    {
+        id: 2,
+        name: "Moira Anderson",
+        title: "Founder and CEO",
+        img: require("../images/kate-watson.png")
+    },
+    {
+        id: 3,
+        name: "Jeremy Gold",
+        title: "Financial Expert",
+        img: require("../images/peter-green.png")
+    }
+]
+
+export const abtGall = [
+    {
+        id: 1,
+        img: require("../images/about-gallery-one.png")
+    },
+    {
+        id: 2,
+        img: require("../images/about-gallery-two.png")
+    },
+    {
+        id: 3,
+        img: require("../images/about-gallery-three.png")
+    },
+    {
+        id: 4,
+        img: require("../images/about-gallery-four.png")
     }
 ]

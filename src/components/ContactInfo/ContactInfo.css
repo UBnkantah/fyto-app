@@ -1,0 +1,21 @@
+.contact-info-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* gap: 1.25em; */
+}
+.contact-info-details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 21.875em;
+}
+.contact-address{
+    width: 100%;
+    box-shadow: 1px 1px 1px 1px var(--text-color);
+}
+.cont-form{
+    width: 21.875em;
+}

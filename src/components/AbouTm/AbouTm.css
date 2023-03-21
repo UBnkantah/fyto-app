@@ -1,0 +1,19 @@
+.aboutm-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.aboutm-header{
+    max-width: 500px;
+    text-align: center;
+}
+.abt-team{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5em;
+}

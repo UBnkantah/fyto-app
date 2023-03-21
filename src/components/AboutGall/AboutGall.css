@@ -1,0 +1,10 @@
+.abt-gall-com{
+    width: 100%;
+    display: flex;
+}
+.abt-gallery{
+    width: 25%;
+}
+.abt-gallery img{
+    width: 100%;
+}

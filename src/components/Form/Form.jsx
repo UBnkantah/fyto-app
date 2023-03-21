@@ -1,5 +1,6 @@
 import {useState} from 'react'
 import {db} from "../../firebase"
+import "./Form.css"
 const Form = () => {
     const [formData, setFormData] = useState({
         name: "",
@@ -37,27 +38,32 @@ const Form = () => {
         })
     }
   return (
-    <div>
-      <form action="" onSubmit={handleSubmit}>
+    <div className='form-container'>
+        <h3>Send us a message</h3>
+      <form action="" onSubmit={handleSubmit} className="form-box">
+        <label htmlFor="">Your name</label>
         <input 
             type="text"
             name="name"
             value={formData.name}
             onChange={handleChange}
-            />
+        />
+        <label htmlFor="">Your email</label>
         <input 
             type="email" 
             name="email"
             value={formData.email}
             onChange={handleChange}
-            id="" />
+            id=""
+        />
+        <label htmlFor="">Your message</label>
         <textarea 
             name="message"
             value={formData.message}
             onChange={handleChange}
             id="" cols="30" rows="10"
         ></textarea>
-        <button type="submit">SEND</button>
+        <button type="submit" className='form-button'>SUBMIT</button>
       </form>
     </div>
   )

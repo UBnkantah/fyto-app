@@ -1,9 +1,9 @@
-import ContactCom from "../components/ContactCom/ContactCom"
+import ContactInfo from "../components/ContactInfo/ContactInfo"
 
 const Contact = () => {
   return (
     <div>
-      <ContactCom />
+      <ContactInfo />
     </div>
   )
 }
