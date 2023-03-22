@@ -1,0 +1,10 @@
+.nft-abt-item-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+.abt-item{
+    width: 400px;
+}

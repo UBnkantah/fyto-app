@@ -1,0 +1,15 @@
+.nft-artist-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+.flex-nft-artist{
+    width: 400px;
+    position: relative;
+}
+.nft-artist-img{
+    width: 100%;
+
+}

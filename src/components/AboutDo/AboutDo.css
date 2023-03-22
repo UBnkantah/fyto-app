@@ -51,3 +51,11 @@
 .abtDo-details{
     max-width: 31.250em;
 }
+
+@media screen and (max-width: 767px) {
+    .abtDo-imgs{
+        display: grid;
+        grid-template-columns: 10.625em 10.625em;
+        grid-template-rows: 10.625em 10.625em 10.625em;
+    }
+}
