@@ -192,3 +192,105 @@ export const abtGall = [
         img: require("../images/about-gallery-four.png")
     }
 ]
+
+export const heroSectBtm = [
+    {
+        id: 1,
+        heading: "Register",
+        img: require("../images/reg-key.png")
+    },
+    {
+        id: 2,
+        heading: "Connect your wallet",
+        img: require("../images/connect-wallet.png")
+    },
+    {
+        id: 3,
+        heading: "Start trading",
+        img: require("../images/start-trading.png")
+    }
+]
+
+export const CwhyData = [
+    {
+        id: 1,
+        head: "Profitability",
+        img: require("../images/profitablity.png")
+    },
+    {
+        id: 2,
+        head: "Transparency",
+        img: require("../images/transparency.png")
+    },
+    {
+        id: 3,
+        head: "Security",
+        img: require("../images/security.png")
+    }
+]
+
+export const lrnCyp = [
+    {
+        id: 1,
+        title: "Download app"
+    },
+    {
+        id: 2,
+        title: "Connect Wallet"
+    },
+    {
+        id: 3,
+        title: "Register"
+    },
+    {
+        id: 4,
+        title: "Start Trading"
+    }
+]
+
+export const cryApd = [
+    {
+        id: 1,
+        head: "Learn crypto",
+        img: require("../images/learn-crypto.png")
+    },
+    {
+        id: 2,
+        head: "Buy Crypto",
+        img: require("../images/buy-crypto.png")
+    },
+    {
+        id: 3,
+        head: "Work secure",
+        img: require("../images/work-secure.png")
+    },
+    {
+        id: 4,
+        head: "Trade anywhere",
+        img: require("../images/trade-anywhere.png")
+    }
+]
+
+export const txtUser = [
+    {
+        id: 1,
+        name: "Adam Watson",
+        title: "Barista",
+        subTit: "Great! This is one of the best apps I have ever used before.",
+        img: require("../images/paul-rojers.png")
+    },
+    {
+        id: 2,
+        name: "Lisa Smith",
+        title: "Designer",
+        subTit: "Great! Compared to everything else I’ve ever used, this is the best app.",
+        img: require("../images/dora-adams.png")
+    },
+    {
+        id: 3,
+        name: "Nick Green",
+        title: "Developer",
+        subTit: "Great! This is one of the best apps I have ever used before.",
+        img: require("../images/nick-green.png")
+    }
+]

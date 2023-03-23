@@ -5,6 +5,7 @@
     flex-direction: column;
     text-align: center;
     gap: 2em;
+    padding-top: 100px;
 }
 .contact-heading{
     max-width: 500px;

@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
 :root{
   --primary-color: white;
   --text-color: black;
@@ -7,6 +8,7 @@
 body{
   background-color: var(--primary-color);
   transition: all 3s;
+  font-family: 'Inter', sans-serif;
 }
 
 h1{

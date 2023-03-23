@@ -1,4 +1,7 @@
 .NFTHero-container{
     display: flex;
     justify-content: center;
+    align-items: center;
+    gap: 2em;
+    padding-top: 100px;
 }

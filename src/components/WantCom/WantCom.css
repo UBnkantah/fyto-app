@@ -1,0 +1,17 @@
+.want-art-cont{
+    background-color: rgb(17, 0, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: var(--primary-color);
+}
+.want-art{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 500px;
+    
+    padding: 50px 0;
+}
