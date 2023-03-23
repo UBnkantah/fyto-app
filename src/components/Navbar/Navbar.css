@@ -1,5 +1,80 @@
 .navbar{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    width: 100%;
+    position: fixed;
+    background-color: black;
+    z-index: 1;
+    transform: 1s;
+    padding: 10px 20px;
+}
+
+nav a{
+    text-decoration: none;
+    margin: 0 1.3em;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+}
+nav .get_btn{
+    position: absolute;
+    top: 1em;
+    right: 3em;
+    padding: 4px 6px;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 13px;
+}
+
+.navbar .navbar_btn{
+    border: none;
+    padding: 5px;
+    color: white;
+    outline: none;
+    visibility: hidden;
+    background: transparent;
+    opacity: 0;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 767px){
+    .navbar .navbar_btn{
+        visibility: visible;
+        opacity: 1;
+        margin-right: 3em;
+    }
+    .navbar nav{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        align-items:  center;
+        background-color: black;
+        transform: translate(-100vh);
+        gap: 1em;
+        transition: 1s;
+        height: 300px;
+    }
+    .navbar .responsive_navbar{
+        transform: none;
+    }
+    nav .get_btn{
+        position: absolute;
+        left: 150px;
+        top: 250px;
+    }
+    .navbar .navbar_close{
+        position: absolute;
+        top: 3em;
+        right: 3em;
+    }
+
 }

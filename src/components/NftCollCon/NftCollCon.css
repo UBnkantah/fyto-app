@@ -1,0 +1,48 @@
+.nft-collection-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.coll-nft-rgt,
+.collect-nft-left
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+.coll-nft-below{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.collect{
+    box-shadow: 0px 0px 5px var(--text-color);
+    padding: 30px;
+    border-radius: 20px;
+}
+.collect-sm{
+    box-shadow: 0px 0px 5px var(--text-color);
+    padding: 20px;
+    border-radius: 20px;
+}
+.want-art-cont{
+    background-color: rgb(17, 0, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.want-art{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 500px;
+    
+    padding: 50px 0;
+}

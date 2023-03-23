@@ -12,24 +12,28 @@ const Navbar = () => {
 
   return (
     <div className="navbar">
-      <h2>Logo</h2>
+      <h2>
+        <Link to="/">
+          Toka  
+        </Link>
+      </h2>
       <nav ref={NavRef}>
-        <Link to="/nft">NFT</Link>
-        <Link to="/crypto">Crypto</Link>
-        <Link to="/about">About Us</Link>
-        <Link to="/team">Our Team</Link>
-        <Link to="/blog">Blog</Link>
-        <button className="get_btn">
+        <Link to="/nft" onClick={showNavbar}>NFT</Link>
+        <Link to="/crypto" onClick={showNavbar}>Crypto</Link>
+        <Link to="/about" onClick={showNavbar}>About Us</Link>
+        <Link to="/team" onClick={showNavbar}>Our Team</Link>
+        <Link to="/blog" onClick={showNavbar}>Blog</Link>
+        <button className="get_btn" onClick={showNavbar}>
           <Link to="/contact">
             Buy Now
           </Link>
         </button>
         <button className="navbar_btn navbar_close" onClick={showNavbar}>
-          <FaTimes />
+          <FaTimes size={23} />
         </button>
       </nav>
       <button className="navbar_btn" onClick={showNavbar}>
-        <FaBars />
+        <FaBars size={23} />
       </button>
     </div>
   )
