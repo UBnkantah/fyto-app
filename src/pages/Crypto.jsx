@@ -1,11 +1,11 @@
 // import cptHero from "../components/cptHero/cptHero"
-import cptHero from "../components/cptHero/cptHero"
+import CtHero from "../components/cptHero/cptHero"
 import Footer from "../components/Footer/Footer"
 
 const Crypto = () => {
   return (
     <div>
-      <cptHero />
+      <CtHero />
       <Footer />
     </div>
   )

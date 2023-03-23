@@ -1,0 +1,8 @@
+.cpt-hero-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2em;
+    padding-top: 100px;
+}
