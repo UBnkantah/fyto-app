@@ -8,3 +8,9 @@
 .abt-item{
     width: 400px;
 }
+.abt-item-img{
+    max-width: inherit;
+}
+.abt-item-img img{
+    width: 100%;
+}

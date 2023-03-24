@@ -24,9 +24,23 @@
     box-shadow: 0px 0px 5px var(--text-color);
     padding: 30px;
     border-radius: 20px;
+    max-width: inherit;
 }
 .collect-sm{
     box-shadow: 0px 0px 5px var(--text-color);
     padding: 20px;
     border-radius: 20px;
+    max-width: inherit;
 }
+.collect img{
+    width: 100%;
+}
+.collect-sm img{
+    width: 100%;
+}
+
+/* .collect-nft-btm-lt,
+
+{
+    max-width: inherit;
+} */

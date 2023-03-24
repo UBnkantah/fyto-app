@@ -23,11 +23,11 @@ const Navbar = () => {
         <Link to="/about" onClick={showNavbar}>About Us</Link>
         <Link to="/team" onClick={showNavbar}>Our Team</Link>
         <Link to="/blog" onClick={showNavbar}>Blog</Link>
+        <Link to="/contact">
         <button className="get_btn" onClick={showNavbar}>
-          <Link to="/contact">
             Buy Now
-          </Link>
         </button>
+        </Link>
         <button className="navbar_btn navbar_close" onClick={showNavbar}>
           <FaTimes size={23} />
         </button>

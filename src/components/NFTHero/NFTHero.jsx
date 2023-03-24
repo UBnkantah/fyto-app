@@ -12,11 +12,9 @@ const NFTHero = () => {
             <p>Secure payments powered by Toka</p>
         </div>
         <div className="NFTHero-img">
-            <div>
-                <img src={NheroImg} alt="" />
-                <h2>Pixel hand</h2>
-                <p>Toka#84592</p>
-            </div>
+          <img src={NheroImg} alt="" />
+          <h2>Pixel hand</h2>
+          <p>Toka#84592</p>
         </div>
     </div>
   )
