@@ -1,0 +1,50 @@
+.crytstmill-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    gap: 2em;
+}
+.crytstmill-top{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+.crytstmill-det{
+    max-width: 500px;
+}
+.crytstusers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+.crytstmill-det img{
+    width: 100%;
+}
+.flex-crytstuser{
+    max-width: 350px;
+    padding: 20px;
+    box-shadow: 0em 0em 2em var(--text-color);
+    border-radius: 20px;
+}
+.cry-star-container{
+    display: flex;
+    gap: 0.1em;
+}
+.cpt-star{
+    width: 20px;
+    height: 20px;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    background-color: rgb(255, 175, 43);
+}
+
+.cpt-profile-cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

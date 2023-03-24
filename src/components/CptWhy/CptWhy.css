@@ -1,0 +1,32 @@
+.whyUsComp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+.cptwhy-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3em;
+}
+
+.flex-whyUs{
+    max-width: 300px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* gap: 20px; */
+    text-align: center;
+    background-color: var(--primary-color);
+    box-shadow: 0em 0em 1em var(--text-color);
+    border-radius: 20px;
+}
+.cptWhy-header{
+    max-width: 500px;
+    text-align: center;
+}
