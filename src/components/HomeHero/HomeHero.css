@@ -1,0 +1,13 @@
+.herohome-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 100px;
+}
+.homehero-details{
+    max-width: 500px;
+}
+.homehero-details img{
+    width: 100%;
+}

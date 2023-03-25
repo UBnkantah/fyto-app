@@ -1,0 +1,11 @@
+.hometrad-components{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    flex-direction: column;
+}
+
+.hometrad-components img{
+    width: 100%;
+}
