@@ -35,3 +35,6 @@
     flex-direction: column;
     gap: 3em;
 }
+.homeben-details > p {
+    margin-bottom: 3em;
+}

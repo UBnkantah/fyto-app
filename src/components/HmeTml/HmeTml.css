@@ -1,0 +1,30 @@
+.hmetml-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--text-color);
+    color: var(--primary-color);
+}
+.hmetml-head{
+    max-width: 500px;
+}
+.txtml-divs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+.flex-txtml{
+    max-width: 400px;
+    background-image: linear-gradient(rgb(41, 42, 48), black);
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+.txtml-profile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

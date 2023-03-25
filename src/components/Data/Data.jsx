@@ -312,3 +312,31 @@ export const HmeBenDa = [
         name: "No trading fees"
     }
 ]
+
+export const HmetxtDa = [
+    {
+        id: 1,
+        name: "Nick Green",
+        title: "Developer",
+        img: require("../images/nick-green.png")
+    },
+    {
+        id: 2,
+        name: "Dora Adams",
+        title: "HR Manager",
+        img: require("../images/dora-adams.png")
+    },
+    {
+        id: 3,
+        name: "Paul Rojers",
+        title: "Project Manager",
+        img: require("../images/paul-rojers.png")
+    },
+    {
+        id: 4,
+        name: "Nick Green",
+        title: "Developer",
+        img: require("../images/nick-green.png")
+    },
+    
+]
