@@ -4,6 +4,8 @@
     align-items: center;
     flex-wrap: wrap;
     padding-top: 100px;
+    background-color: var(--text-color);
+    color: var(--primary-color);
 }
 .homehero-details{
     max-width: 500px;

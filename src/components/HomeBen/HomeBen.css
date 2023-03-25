@@ -1,0 +1,37 @@
+.homeBen-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: var(--text-color);
+    color: var(--primary-color);
+    gap: 2em;
+}
+
+.homeben-details{
+    max-width: 500px;
+}
+.homeben-details img{
+    width: 100%;
+}
+
+.flex-homeben-det{
+    background-image: linear-gradient(rgb(41, 42, 48), black);
+    border-radius: 10px;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+.flex-homeben-det img{
+    width: 50px;
+    height: 50px;
+}
+.flex-homeben-det-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3em;
+}

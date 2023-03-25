@@ -5,16 +5,16 @@ const HomeEarnCy = () => {
   return (
     <div className='container homearny-container'>
         <div className="homearny-details">
-          <p>EARN CRYPTO</p>
-          <h2>Deposit crypto earn interest</h2>
-          <p>Choose from 150+ cryptocurrencies</p>
+          <p className="main-header-color">EARN CRYPTO</p>
+          <h2 className="sub-sns-header">Deposit crypto earn interest</h2>
+          <p className="cyt">Choose from 150+ cryptocurrencies</p>
           <div className="homearny-btm-cont">
             <div className="homearny-div">
-              <h2>15%</h2>
+              <h2 className="homearny-unit">15%</h2>
               <p>On Cryptos</p>
             </div>
             <div className="homearny-div">
-              <h2>40%</h2>
+              <h2 className="homearny-unit">40%</h2>
               <p>On stablecoins</p>
             </div>
           </div>

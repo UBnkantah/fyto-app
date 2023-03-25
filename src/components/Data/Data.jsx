@@ -294,3 +294,21 @@ export const txtUser = [
         img: require("../images/nick-green.png")
     }
 ]
+
+export const HmeBenDa = [
+    {
+        id: 1,
+        img: require("../images/star.png.png"),
+        name: "Best Prices"
+    },
+    {
+        id: 2,
+        img: require("../images/lock.png.png"),
+        name: "Secured & insured"
+    },
+    {
+        id: 3,
+        img: require("../images/transfer.png.png"),
+        name: "No trading fees"
+    }
+]

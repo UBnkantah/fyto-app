@@ -3,4 +3,30 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    background-color: var(--text-color);
+    color: var(--primary-color);
+}
+.homearny-details{
+    max-width: 500px;
+}
+.homearny-btm-cont{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 100px;
+}
+.homearny-details img{
+    width: 100%;
+}
+.homearny-unit{
+    color: var(--main-color);
+    font-size: 60px;
+    font-weight: 800;
+}
+.homearny-div > p{
+    font-size: 20px;
+    font-weight: 600;
+}
+.homearny-details .cyt{
+    font-size: 20px;
+    font-weight: 400;
 }

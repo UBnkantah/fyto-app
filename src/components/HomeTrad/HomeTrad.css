@@ -4,8 +4,14 @@
     align-items: center;
     gap: 1em;
     flex-direction: column;
+    text-align: center;
+    background-color: var(--text-color);
+    color: var(--primary-color);
 }
 
 .hometrad-components img{
     width: 100%;
+}
+.hometrad-top{
+    max-width: 600px;
 }

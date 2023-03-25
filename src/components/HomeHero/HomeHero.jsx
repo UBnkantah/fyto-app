@@ -6,9 +6,9 @@ const HomeHero = () => {
   return (
     <div className="herohome-container">
         <div className="homehero-details container">
-            <p>GET 25% OFF NOW</p>
-            <h2>Make your life easier with crypto</h2>
-            <button>Start now</button>
+            <p className="main-header-color">GET 25% OFF NOW</p>
+            <h2 className="hero-sns-header">Make your life easier with crypto</h2>
+            <button className="home-pg-button">Start now</button>
             <div className="hme-btm-sect">
                 <div className="hme-2k-lt">
                     <p>2K+ ACTIVE USERS</p>
@@ -19,12 +19,8 @@ const HomeHero = () => {
             </div>
         </div>
         <div className="homehero-details">
-            {/* <div className="homehero-card"> */}
-                <img src={HeroCard} alt="" />
-            {/* </div> */}
-            {/* <div className="homehero-hand"> */}
+                <img src={HeroCard} alt="" className="nftAnimate" />
                 <img src={HeroHand} alt="" />
-            {/* </div> */}
         </div>
 
     </div>

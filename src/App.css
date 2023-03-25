@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Raleway:wght@700&display=swap');
 :root{
   --primary-color: white;
   --text-color: black;
@@ -7,7 +7,7 @@
 
 body{
   background-color: var(--primary-color);
-  transition: all 3s;
+  /* transition: all 3s; */
   font-family: 'Inter', sans-serif;
 }
 
@@ -27,6 +27,59 @@ h1{
 }
 .container{
   padding: 60px;
+}
+.main-header-color{
+  color: var(--main-color);
+  font-size: 18px;
+  font-weight: 800;
+}
+.shapes{
+  width: 30px;
+  height: 30px;
+  background-color: var(--primary-color);
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+.nftAnimate{
+  animation: nftAnime 5s infinite;
+}
+
+.home-pg-button{
+  background-color: var(--main-color);
+  color: white;
+  padding: 15px 35px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.hero-sns-header{
+  font-size: 80px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.sub-sns-header{
+  font-size: 43px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+}
+
+@keyframes nftAnime {
+  0%{
+    transform: translateY(-20px);
+  }
+  25%{
+    transform: translateY(-10px);
+  }
+  50%{
+    transform: translateY(0px);
+  }
+  75%{
+    transform: translateY(-10px);
+  }
+  100%{
+    transform: translateY(-20px);
+  }
 }
 @media screen and (max-width: 767px){
   .container{
