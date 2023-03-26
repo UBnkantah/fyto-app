@@ -1,0 +1,24 @@
+.homeSrt-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(rgb(0, 0, 0), var(--light-dark));
+}
+.flex-homeSrt{
+    background-color: var(--light-dark);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    border-radius: 15px;
+    border: 1px solid var(--primary-color);
+    box-shadow: 0px 0px 2px var(--primary-color);
+}
+.homeSrt-lt{
+    max-width: 500px;
+    color: var(--primary-color);
+}
+.homeSrt-lt .sub-sns-header > span {
+    color: var(--main-color);
+}

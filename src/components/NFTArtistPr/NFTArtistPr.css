@@ -3,7 +3,10 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 2em;
+    gap: 6em;
+    background-color: var(--text-color);
+    color: var(--primary-color);
+    padding: 150px 0px;
 }
 .flex-nft-artist{
     width: 400px;
@@ -12,4 +15,27 @@
 .nft-artist-img{
     width: 100%;
 
+}
+.nftWk-box{
+    background-color: var(--light-dark);
+    padding: 20px;
+    border-radius: 20px;
+    width: fit-content;
+}
+.nft-artwork-top{
+    position: absolute;
+    top: -10%;
+    left: -20%;
+}
+
+.nft-artwork-left{
+    position: absolute;
+    bottom: -25%;
+    left: -20%;
+}
+
+.nft-artwork-right{
+    position: absolute;
+    bottom: -25%;
+    right: -20%;
 }

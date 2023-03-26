@@ -6,8 +6,8 @@ const HmeTml = () => {
   return (
       <div className="container hmetml-container">
         <div className="hmetml-head">
-          <p>TESTIMONIALS</p>
-          <h2>What People Say</h2>
+          <p className="main-header-color">TESTIMONIALS</p>
+          <h2 className="sub-sns-header">What People Say</h2>
           <p>You can buy snd sell 150+ Cryptocurrencies with 20+ fiat currencies using bank transfers on your credits or debits cards</p>
         </div>
         

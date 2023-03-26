@@ -1,4 +1,3 @@
-import React from 'react'
 import Footer from '../components/Footer/Footer'
 import NftAbtItem from '../components/NftAbtItem/NftAbtItem'
 import NFTArtistPr from '../components/NFTArtistPr/NFTArtistPr'
