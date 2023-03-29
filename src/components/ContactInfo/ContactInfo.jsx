@@ -50,9 +50,9 @@ const ContactInfo = () => {
             <div className="contact-info-details">
                 <div className="contact-address">
                     <h2>  Head Office</h2>
-                    <p> <FaMapMarkedAlt /> 202 Helga Springs Rd, Crawford, TN 38554</p>
-                    <p> <FaPhoneAlt /> 800.275.8777</p>
-                    <p> <FaTelegramPlane /> Telegram Support</p>
+                    <p> <FaMapMarkedAlt className='contact-icon' /> 202 Helga Springs Rd, Crawford, TN 38554</p>
+                    <p> <FaPhoneAlt className='contact-icon' /> 800.275.8777</p>
+                    <p> <FaTelegramPlane className='contact-icon'/> Telegram Support</p>
                 </div>
                 <div className="contact-openings">
                     <h2>Opening hours</h2>
