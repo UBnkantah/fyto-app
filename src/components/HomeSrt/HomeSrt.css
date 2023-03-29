@@ -12,6 +12,7 @@
     align-items: center;
     padding: 50px;
     border-radius: 15px;
+    flex-wrap: wrap;
     border: 1px solid var(--primary-color);
     box-shadow: 0px 0px 2px var(--primary-color);
 }
@@ -21,4 +22,17 @@
 }
 .homeSrt-lt .sub-sns-header > span {
     color: var(--main-color);
+}
+@media screen and (max-width: 767px) {
+    .flex-homeSrt{
+        padding: 20px;
+    }
+    .flex-homeben-det{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 10px;
+        text-align: center;
+    }
 }

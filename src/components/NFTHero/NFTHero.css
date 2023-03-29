@@ -15,9 +15,10 @@
     background-color: var(--light-dark);
     padding: 20px;
     border-radius: 20px;
+    max-width: fit-content;
 }
 .NFTHero-img img{
-    max-width: inherit;
+    max-width: 100%;
 }
 .nhtop{
     color: var(--primary-color);
