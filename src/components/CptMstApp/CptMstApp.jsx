@@ -1,13 +1,12 @@
 import { cryApd } from "../Data/Data"
-import LearnCpt from "../images/learn-crypto.png"
 import "./CptMstApp.css"
 
 const CptMstApp = () => {
   return (
     <div className="container cptMstApp-container">
         <div className="cptmstapp-head">
-            <p>THE MOST POPULAR APP</p>
-            <h2>Become a crypto traider in seconds</h2>
+            <p className="main-header-color">THE MOST POPULAR APP</p>
+            <h2 className="sub-sns-header">Become a crypto traider in seconds</h2>
             <p>Cryptocurrency markets have seen an increase in volume in recent weeks, which is a great opportunity for new traders.</p>
         </div>
         <div className="cptmstapp-traider-container">

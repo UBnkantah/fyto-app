@@ -39,3 +39,8 @@
     bottom: -25%;
     right: -20%;
 }
+@media screen and (max-width: 767px){
+    .nftWk-box{
+        display: none;
+    }
+}

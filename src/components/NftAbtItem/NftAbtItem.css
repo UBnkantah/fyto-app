@@ -1,9 +1,11 @@
 .nft-abt-item-container{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     gap: 2em;
+    background-color: var(--light-dark);
+    color: var(--primary-color);
 }
 .abt-item{
     width: 400px;
@@ -13,4 +15,14 @@
 }
 .abt-item-img img{
     width: 100%;
+}
+.flex-info-nft{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.item-info-nft .info-nft-size{
+    font-size: 32px;
+    font-family: Raleway, sans-serif;
+    font-weight: 800;
 }

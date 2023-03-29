@@ -1,9 +1,11 @@
 .whyUs-container{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     gap: 2em;
+    background-color: var(--text-color);
+    color: var(--primary-color);
 }
 .cryWys-details,
 .cryWys-img

@@ -7,8 +7,8 @@ const CryLearn = () => {
     <div className='container cryLearn-container'>
         <div className="flex-cryln-head">
             <div className="flex-cryln-head-lt">
-                <p>LEARN CRYPTO</p>
-                <h2>Watch our crypto trading guide for beginners</h2>
+                <p className="main-header-color">LEARN CRYPTO</p>
+                <h2 className="sub-sns-header">Watch our crypto trading guide for beginners</h2>
             </div>
             <div className="flex-cryln-head-lt">
                 <p>The Bitcoin and cryptocurrency markets have experienced a surge in volume recently, making it an exciting time to become a trader.</p>

@@ -8,7 +8,7 @@ import "./BlogCom.css"
 const BlogCom = () => {
   return (
     <div className="container blogcom-conta">
-        <h1>Blog</h1>
+        <h2 className="sub-sns-header">Blog</h2>
         <div className="blogainer">
             {blog.map((item) => {
                 return(

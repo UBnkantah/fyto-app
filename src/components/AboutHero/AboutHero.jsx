@@ -7,8 +7,8 @@ const AboutHero = () => {
   return (
     <div className="container about-container">
         <div className="about-hero-div">
-            <p>OUR STORY</p>
-            <h2>About our company</h2>
+            <p className="main-header-color">OUR STORY</p>
+            <h2 className="sub-sns-header">About our company</h2>
             <p>Cryptocurrency markets have seen an increase in volume in recent weeks, which is a great opportunity for new traders.</p>
         </div>
         <div className="about-hero-img">
@@ -16,7 +16,7 @@ const AboutHero = () => {
         </div>
         <div className="about-mission">
             <div className="abt-mission-dts">
-                <p>OUR MISSION</p>
+                <p className="main-header-color">OUR MISSION</p>
                 <h2>We are helping people to get a success.</h2>
             </div>
             <div className="abt-mission-dts">

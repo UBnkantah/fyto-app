@@ -4,6 +4,8 @@
     align-items: center;
     flex-direction: column;
     gap: 2em;
+    background-color: var(--text-color);
+    color: var(--primary-color);
 }
 
 .aboutm-header{
@@ -16,4 +18,17 @@
     align-items: center;
     flex-wrap: wrap;
     gap: 1.5em;
+}
+.flex-abt-team{
+    background-color: var(--light-dark);
+    max-width: 300px;
+    border-radius: 25px;
+    box-shadow: 0px 0px 1px var(--primary-color);
+}
+.txt-abt-fx{
+    padding-left: 15px;
+}
+.abtDo-container{
+    background-color: var(--text-color);
+    color: var(--primary-color);
 }

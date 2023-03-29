@@ -7,10 +7,10 @@ const cptHero = () => {
     <>
       <div className='container cpt-hero-container'>
         <div className="cpt-hero-details">
-            <p>GET 25% OFF NOW</p>
-            <h2>Trusted & secure crypto exchange</h2>
+            <p className="main-header-color">GET 25% OFF NOW</p>
+            <h2 className="sub-sns-header">Trusted & secure crypto exchange</h2>
             <p>Trade Bitcoin, Ethereum, USDT and other altcoins using our crypto trading app.</p>
-            <button>Get Started</button>
+            <button className="home-pg-button">Get Started</button>
           </div>
           <div className="cpt-hero-img">
               <img src={cptHeroImg} alt="" />

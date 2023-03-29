@@ -1,6 +1,8 @@
 .blogcom-conta{
     text-align: center;
     padding-top: 100px;
+    background-color: var(--text-color);
+    color: var(--primary-color);
 }
 
 .blogainer{
@@ -13,8 +15,9 @@
 
 .flex-blog{
     max-width: 21.875em;
-    box-shadow: 0px 0px 10px  var(--text-color);
+    box-shadow: 0px 0px 1px  var(--primary-color);
     border-radius: 20px;
+    background-color: var(--light-dark);
 }
 .blog-img-con{
     width: 100%;
@@ -45,7 +48,7 @@
     padding-left: 1em;
 }
 .blog-details .blog-header{
-    color: var(--text-color);
+    color: var(--primary-color);
     font-size: 25px;
     font-weight: 700;
 }
@@ -62,7 +65,7 @@
     /* padding: 0px 1px; */
     align-items: center;
     gap: 0.7em;
-    box-shadow: 0px 0px 1px var(--text-color);
+    box-shadow: 0px 0px 1px var(--primary-color);
     border-radius: 10px;
     /* background-color: var(--text-color); */
 }

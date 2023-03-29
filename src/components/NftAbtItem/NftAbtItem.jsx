@@ -6,20 +6,20 @@ const NftAbtItem = () => {
   return (
     <div className="container nft-abt-item-container">
         <div className="abt-item-details abt-item">
-            <p>ABOUT THE ITEM</p>
-            <h2>Totally new way to look at ancient art</h2>
+            <p className="main-header-color">ABOUT THE ITEM</p>
+            <h2 className="sub-sns-header">Totally new way to look at ancient art</h2>
             <p>An NFT is a unit of data stored on a digital ledger, called a blockchain, which can be sold and traded. The NFT can be associated with a particular digital or physical asset and a license to use the asset for a specified purpose. NFTs can be traded and sold on digital markets.</p>
-            <div>
+            <div className="flex-info-nft">
                 <div className="item-info-nft">
-                    <p>3000 x 3000</p>
+                    <p className="info-nft-size">3000 x 3000</p>
                     <p>Item Size</p>
                 </div>
                 <div className="item-info-nft">
-                    <p>05 Jan, 2022</p>
+                    <p className="info-nft-size">05 Jan, 2022</p>
                     <p>Date of Creation</p>
                 </div>
             </div>
-            <button>
+            <button className="home-pg-button">
                 <FaShoppingCart />
                 Place a bid
             </button>

@@ -34,12 +34,6 @@ h1{
   font-size: 18px;
   font-weight: 800;
 }
-.shapes{
-  width: 30px;
-  height: 30px;
-  background-color: var(--primary-color);
-  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
-}
 .nftAnimate{
   animation: nftAnime 5s infinite;
 }
@@ -55,7 +49,7 @@ h1{
   cursor: pointer;
 }
 .hero-sns-header{
-  font-size: 80px;
+  font-size: 70px;
   font-family: 'Raleway', sans-serif;
 }
 
@@ -85,5 +79,12 @@ h1{
 @media screen and (max-width: 767px){
   .container{
     padding: 30px;
+  }
+  .sub-sns-header{
+    font-size: 23px;
+    font-weight: 500;
+  }
+  .hero-sns-header{
+    font-size: 35px;
   }
 }

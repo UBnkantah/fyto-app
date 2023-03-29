@@ -6,6 +6,8 @@
     text-align: center;
     gap: 2em;
     padding-top: 100px;
+    background-color: var(--text-color);
+    color: var(--primary-color);
 }
 .contact-heading{
     max-width: 500px;
@@ -27,7 +29,7 @@
 .flex-socials .social-icons{
     width: 35px;
     height: 35px;
-    background-color: var(--text-color);
+    background-color: var(--primary-color);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,11 +37,15 @@
 }
 
 .social-icons .member-icon{
-    color: var(--primary-color);
+    color: var(--text-color);
 }
 
 .flex-contact{
     max-width: 300px;
+    background-color: var(--light-dark);
+    border-radius: 25px;
+    padding-bottom: 20px;
+    box-shadow: 0px 0px 1px var(--primary-color);
 }
 .flex-contact img{
     width: 100%;

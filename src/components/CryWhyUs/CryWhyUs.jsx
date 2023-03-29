@@ -5,8 +5,8 @@ const CryWhyUs = () => {
   return (
     <div className="container whyUs-container">
         <div className="cryWys-details">
-            <p>WHY US</p>
-            <h2>We got everything you need to start trading</h2>
+            <p className="main-header-color">WHY US</p>
+            <h2 className="sub-sns-header">We got everything you need to start trading</h2>
             <p>The Bitcoin and cryptocurrency markets have experienced a surge in volume recently, making it an exciting time to become a trader.</p>
             <p>Top trading platform</p>
             <p>Secure payments</p>

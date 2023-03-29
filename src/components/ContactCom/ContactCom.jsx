@@ -1,4 +1,3 @@
-import AnitaImg from "../images/anita-gold.png"
 import {FaFacebookF, FaTwitter, FaInstagram} from "react-icons/fa"
 import { teamembers } from "../Data/Data"
 import "./ContactCom.css"
@@ -8,8 +7,8 @@ const ContactCom = () => {
   return (
     <div className="container contact-box">
         <div className="contact-heading">
-            <p>OUR TEAM</p>
-            <h1>Meet our crypto experts</h1>
+            <p className="main-header-color">OUR TEAM</p>
+            <h2 className="sub-sns-header">Meet our crypto experts</h2>
             <p>Our company was founded in 2020. We work daily to become better and we are ready to share best practices.</p>
         </div>
         <div className="contacts-container">

@@ -11,6 +11,8 @@
     align-items: center;
     flex-direction: column;
     gap: 3em;
+    background-color: var(--text-color);
+    color: var(--primary-color);
 }
 
 .flex-whyUs{
@@ -22,8 +24,9 @@
     flex-direction: column;
     /* gap: 20px; */
     text-align: center;
-    background-color: var(--primary-color);
-    box-shadow: 0em 0em 1em var(--text-color);
+    background-color: var(--light-dark);
+    box-shadow: 0em 0em 1em var(--primary-color);
+    color: var(--primary-color);
     border-radius: 20px;
 }
 .cptWhy-header{

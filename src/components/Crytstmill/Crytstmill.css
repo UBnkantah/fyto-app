@@ -3,18 +3,19 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    /* flex-wrap: wrap; */
+    background-color: var(--text-color);
+    color: var(--primary-color);
     gap: 2em;
 }
 .crytstmill-top{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     gap: 2em;
 }
 .crytstmill-det{
-    max-width: 500px;
+    max-width: 450px;
 }
 .crytstusers{
     display: flex;
@@ -28,9 +29,10 @@
     width: 100%;
 }
 .flex-crytstuser{
-    max-width: 350px;
+    max-width: 300px;
     padding: 20px;
-    box-shadow: 0em 0em 2em var(--text-color);
+    box-shadow: 0em 0em 1px var(--primary-color);
+    background-color: var(--light-dark);
     border-radius: 20px;
 }
 .cry-star-container{

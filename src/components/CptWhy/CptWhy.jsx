@@ -5,8 +5,8 @@ const CptWhy = () => {
   return (
     <div className="container cptwhy-container">
         <div className="cptWhy-header">
-            <p>FEATURES</p>
-            <h2>Why Us?</h2>
+            <p className="main-header-color">FEATURES</p>
+            <h2 className="sub-sns-header">Why Us?</h2>
             <p>Cryptocurrency markets have seen an increase in volume in recent weeks, which is a great opportunity for new traders.</p>
         </div>
 

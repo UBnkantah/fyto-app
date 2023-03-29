@@ -27,7 +27,7 @@ const NFTArtistPr = () => {
         </div>
         
       </div>
-      <div className="nft-artist-info flex-nft-artist">
+      <div className="nft-artist-info flex-nft-artist container">
         <p className="main-header-color">ABOUT THE ARTIST</p>
         <h2 className="sub-sns-header">I create a lot of beautiful things</h2>
         <p>A non-fungible token is a unit of data stored on a digital ledger, called a blockchain, that certifies a digital asset to be unique and therefore not interchangeable. NFTs can be used to represent items such as photos, videos, audio, and other types of digital files. An NFT is a unit of data stored on a digital ledger, called a blockchain, which can be sold and traded.</p>

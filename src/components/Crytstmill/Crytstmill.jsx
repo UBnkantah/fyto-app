@@ -8,10 +8,10 @@ const Crytstmill = () => {
     <div className='container crytstmill-container'>
         <div className="crytstmill-top">
             <div className="crytstmill-det">
-                <p>TESTIMONIALS</p>
+                <p className="main-header-color">TESTIMONIALS</p>
                 <h2>Millions of users around the world</h2>
                 <p>It’s an exciting time to become a trader.</p>
-                <button>
+                <button className="home-pg-button">
                     Learn more
                 </button>
             </div>

@@ -18,12 +18,12 @@ const AboutDo = () => {
             </div>
         </div>
         <div className="abtDo-details">
-            <p>WHAT WE DO</p>
-            <h2>Millions of users around the world</h2>
+            <p className="main-header-color">WHAT WE DO</p>
+            <h2 className="sub-sns-header">Millions of users around the world</h2>
             <p>
                 Invest in Bitcoin, Ethereum, USDT, and other cryptocurrencies using our crypto trading app. The Bitcoin and cryptocurrency markets have experienced a surge in volume recently, making it an exciting time to become a trader. Cryptocurrency markets have seen an increase in volume in recent weeks, which is a great opportunity for new traders.
             </p>
-            <button>Start Now</button>
+            <button className="home-pg-button">Start Now</button>
         </div>
     </div>
   )

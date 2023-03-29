@@ -4,6 +4,8 @@
     align-items: center;
     flex-direction: column;
     padding: 100px;
+    background-color: var(--text-color);
+    color: var(--primary-color);
 }
 .about-hero-div{
     max-width: 31.25em;
@@ -41,6 +43,7 @@
     text-align: center;
     flex-direction: column;
     border-radius: 20px;
-    box-shadow: 0.5px 0.5px 0.5px 0.5px var(--text-color);
+    box-shadow: 0.5px 0.5px 0.5px 0.5px var(--primary-color);
+    background-color: var(--light-dark);
     padding: 15px;
 }

@@ -8,10 +8,10 @@ import { Link } from "react-router-dom"
 
 const NftCollCon = () => {
   return (
-    <div className="container ">
+    <div className="container nft-collection-top">
         <div>
-            <p>COLLECTIONS</p>
-            <p>Discover more artwork</p>
+            <p className="main-header-color">COLLECTIONS</p>
+            <p className="sub-sns-header">Discover more artwork</p>
             <p>Check out my latest creative NFT</p>
         </div>
         <div className="nft-collection-cont">
