@@ -16,17 +16,6 @@ const cptHero = () => {
               <img src={cptHeroImg} alt="" />
           </div>
       </div>
-      <div className="cpt-hero-btm">
-        <div className="flex-cpt-hero">
-          <div className="img-cpt-flex">
-            <img src={regKey} alt="" />
-          </div>
-          <div className="details-cpt-flex">
-            <h3>Register</h3>
-            <p>Download our app and register in 3 minutes</p>
-          </div>
-        </div>
-      </div>
     </>
     
   )

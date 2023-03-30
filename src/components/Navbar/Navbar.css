@@ -9,7 +9,10 @@
     transform: 1s;
     padding: 10px 20px;
 }
-
+.navbar-logo{
+    text-decoration: none;
+    color: var(--main-color);
+}
 nav a{
     text-decoration: none;
     margin: 0 1.3em;

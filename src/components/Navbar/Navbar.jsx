@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <h2>
-        <Link to="/">
+        <Link to="/" className="navbar-logo">
           Toka  
         </Link>
       </h2>

@@ -25,3 +25,12 @@
 .cptmstapp-traider-flex img{
     max-width: inherit;
 }
+@media screen and (max-width: 767px){
+    .cptmstapp-traider-flex{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+}

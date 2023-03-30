@@ -17,9 +17,6 @@ import Footer from "../components/Footer/Footer"
 const Home = () => {
   return (
     <div>
-      {/* <div id="dark-mode-toggle" onClick={darkmode}></div>
-      <h1>Home</h1>
-      <ReactSwitch onChange={darkmode} checked /> */}
       <HomeHero />
       <HomeTrad />
       <HomeEarnCy />
