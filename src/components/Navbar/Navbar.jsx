@@ -1,39 +1,38 @@
-import { useRef } from "react"
+import { useState } from "react"
 import {Link} from "react-router-dom"
 import {FaBars, FaTimes} from "react-icons/fa"
 import "./Navbar.css"
 
 const Navbar = () => {
-  const NavRef = useRef();
-
-  const showNavbar = () => {
-    NavRef.current.classList.toggle("responsive_navbar")
-  }
+  const [mobile, setMobile] = useState(false)
 
   return (
     <div className="navbar">
       <h2>
         <Link to="/" className="navbar-logo">
-          Toka  
+          Toka
         </Link>
       </h2>
-      <nav ref={NavRef}>
-        <Link to="/nft" onClick={showNavbar}>NFT</Link>
-        <Link to="/crypto" onClick={showNavbar}>Crypto</Link>
-        <Link to="/about" onClick={showNavbar}>About Us</Link>
-        <Link to="/team" onClick={showNavbar}>Our Team</Link>
-        <Link to="/blog" onClick={showNavbar}>Blog</Link>
-        <Link to="/contact">
-        <button className="get_btn" onClick={showNavbar}>
+      <nav className={mobile ? "nav-links-mob" : "nav-links"} onClick={() => setMobile(false)}>
+        <Link to="/nft">NFT</Link>
+        <Link to="/crypto">Crypto</Link>
+        <Link to="/about">About</Link>
+        <Link to="/team">Team</Link>
+        <Link to="/blog">Blog</Link>
+        <button
+          className={mobile ? "btn-desk btn-all" : "btn-mob btn-all"}
+        >
+          <Link to="contact">
             Buy Now
-        </button>
-        </Link>
-        <button className="navbar_btn navbar_close" onClick={showNavbar}>
-          <FaTimes size={23} />
+          </Link>
         </button>
       </nav>
-      <button className="navbar_btn" onClick={showNavbar}>
-        <FaBars size={23} />
+      <button
+        className={!mobile ? "btn-desk btn-all" : "btn-mob btn-all"}
+        id="btn-si"
+      ><Link to="contact">Buy Now</Link></button>
+      <button className="nav-icons" onClick={() => setMobile(!mobile)}>
+        {mobile ? <FaTimes color="white" size={20} /> : <FaBars color="white" size={20} />}
       </button>
     </div>
   )

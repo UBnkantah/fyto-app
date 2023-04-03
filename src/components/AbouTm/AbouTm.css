@@ -11,19 +11,23 @@
 .aboutm-header{
     max-width: 500px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
 }
 .abt-team{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 1.5em;
+    gap: 1em;
 }
 .flex-abt-team{
     background-color: var(--light-dark);
     max-width: 300px;
     border-radius: 25px;
     box-shadow: 0px 0px 1px var(--primary-color);
+    padding-bottom: 1.5em;
 }
 .txt-abt-fx{
     padding-left: 15px;

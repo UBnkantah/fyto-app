@@ -1,4 +1,3 @@
-import Animg from "../images/anita-gold.png"
 import { abtGall } from "../Data/Data"
 import "./AboutGall.css"
 

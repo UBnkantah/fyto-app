@@ -1,6 +1,5 @@
 import Crytesty from "../images/cry-testy.png"
 import "./Crytstmill.css"
-import txtUserPf from "../images/dora-adams.png"
 import { txtUser } from "../Data/Data"
 
 const Crytstmill = () => {

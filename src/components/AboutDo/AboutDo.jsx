@@ -23,7 +23,10 @@ const AboutDo = () => {
             <p>
                 Invest in Bitcoin, Ethereum, USDT, and other cryptocurrencies using our crypto trading app. The Bitcoin and cryptocurrency markets have experienced a surge in volume recently, making it an exciting time to become a trader. Cryptocurrency markets have seen an increase in volume in recent weeks, which is a great opportunity for new traders.
             </p>
-            <button className="home-pg-button">Start Now</button>
+            <div>
+                <button className="home-pg-button">Start Now</button>
+            </div>
+            
         </div>
     </div>
   )

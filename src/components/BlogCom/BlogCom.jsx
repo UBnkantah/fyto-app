@@ -1,4 +1,3 @@
-import NftImg from "../images/blog-second-img.png"
 import {FiUser} from "react-icons/fi"
 import {FaRegCalendarAlt} from "react-icons/fa"
 import {BiMessage} from "react-icons/bi"

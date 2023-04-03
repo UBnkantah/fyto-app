@@ -10,6 +10,9 @@
 }
 .flex-footer{
     max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6em;
 }
 
 .footer-email{

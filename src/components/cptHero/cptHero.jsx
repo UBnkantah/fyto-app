@@ -1,5 +1,4 @@
 import cptHeroImg from "../images/cyp-hero.png"
-import regKey from "../images/reg-key.png"
 import "./cptHero.css"
 
 const cptHero = () => {

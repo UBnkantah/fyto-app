@@ -1,5 +1,4 @@
 import AbtImg from "../images/about-hero-img.png"
-import userSec from "../images/user-security.png"
 import { userEx } from "../Data/Data"
 import "./AboutHero.css"
 

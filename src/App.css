@@ -5,6 +5,11 @@
   --main-color: #36bb91;
   --light-dark: rgb(41, 42, 48);
 }
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 body{
   background-color: var(--primary-color);

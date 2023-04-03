@@ -1,6 +1,5 @@
 import { HmeBenDa } from "../Data/Data"
 import HomeBenImg from "../images/ervress.png.png"
-import StarImg from "../images/star.png.png"
 import "./HomeBen.css"
 
 const HomeBen = () => {

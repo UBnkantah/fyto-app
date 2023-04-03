@@ -1,5 +1,4 @@
 import { HmetxtDa } from "../Data/Data"
-import txtProf from "../images/paul-rojers.png"
 import "./HmeTml.css"
 
 const HmeTml = () => {
